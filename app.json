@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Mycellium Cell Hunter",
+    "slug": "mycellium-cell-hunter",
+    "version": "1.0.0",
+    "sdkVersion": "44.0.0",
+    "platforms": ["ios", "android"],
+    "main": "node_modules/expo/AppEntry.js",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled": true
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {},
+    "android": {
+      "package": "com.sallesnathanart.mycelliumcellhunter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
